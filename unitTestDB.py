@@ -5,7 +5,6 @@ my_db=MyDatabase()
 
 class TestUpAndDown(unittest.TestCase):
 
-
     def test_GetByCorrectIndex_CorrectRow(self):
         res=my_db.get(1)
         self.assertEqual(res[1],"test HELLO mad WORLD")

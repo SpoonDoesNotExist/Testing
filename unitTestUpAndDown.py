@@ -1,4 +1,4 @@
-import upAndDown
+from upAndDown import UpAndDown
 import unittest
 
 up_down=UpAndDown()
